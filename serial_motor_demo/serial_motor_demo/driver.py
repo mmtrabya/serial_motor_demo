@@ -182,5 +182,3 @@ def main(args=None):
     motor_driver.close_conn()
     motor_driver.destroy_node()
     rclpy.shutdown()
-
-

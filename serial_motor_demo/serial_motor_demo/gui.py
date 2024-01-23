@@ -189,5 +189,3 @@ def main(args=None):
 
     motor_gui.destroy_node()
     rclpy.shutdown()
-
-
