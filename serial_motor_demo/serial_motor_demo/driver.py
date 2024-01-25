@@ -28,7 +28,7 @@ class MotorDriver(Node):
             print("WARNING! LOOP RATE SET TO 0!!")
 
 
-        self.declare_parameter('serial_port', value="/dev/ttyUSB0")
+        self.declare_parameter('serial_port', value="/dev/ttyACM0")
         self.serial_port = self.get_parameter('serial_port').value
 
 
